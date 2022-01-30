@@ -1,26 +1,25 @@
-import React from "react";
-import './style.css'
+import React from 'react';
+import './style.css';
 
 const Card = ({ img, title, deletePost, postText, authName }) => {
   return (
     <div className="post">
-      <div className="postHeader">
-        <div className="imgPost">
-          <img src={img} />
-        </div>
-        &nbsp; &nbsp;
-        <br />
-        <div className="title">
-          <h1>{title} </h1>
-        </div>
-        &nbsp; &nbsp;
-        <br />
-        <div className="deletePost">
-          <button onClick={deletePost && deletePost}>&#128465;</button>
+      <div className="post-img-header">
+        <div className="post-img-container">
+          <img className="post-img" alt="Post" src={img} />
         </div>
       </div>
-      <div className="postTextContainer">
-        {postText}
+
+      <div className="deletePost">
+        <button onClick={deletePost && deletePost}>&#128465;</button>
+      </div>
+
+      <div className="post-title">
+        <h2>{title} </h2>
+      </div>
+
+      <div className="post-text-container">
+        <p className="post-text">{postText}</p>
         <h3>@{authName}</h3>
       </div>
     </div>
