@@ -1,0 +1,29 @@
+.sidebar {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.imgRedonda {
+    width: 100%;
+    height: 230px;
+}
+
+.sidebar__auth-name {
+    margin: 0px;
+}
+
+.sidebar__auth-desc {
+    margin: 0px;
+    margin-top: 2px;
+    color: gray;
+}
+
+.social-media {
+    width: 100%;
+    /* height: 100px; */
+}
+
+.video {
+    width: 100%;
+}
