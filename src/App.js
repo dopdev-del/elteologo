@@ -22,10 +22,6 @@ function App() {
       <h1>ELBLOGDECARLOSFERRERAS </h1>
       <nav>
         <Link to="/">Inicio</Link>
-        <Link to="/">Historia</Link>
-        <Link to="/">Arte</Link>
-        <Link to="/">Teologia</Link>
-        <Link to="/">Mitologia</Link>
 
         {!isAuth ? ( <Link to="/login">Iniciar sesion</Link> 
         ) : (
