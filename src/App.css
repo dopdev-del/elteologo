@@ -76,6 +76,10 @@ a {
   height: 150px;
 }
 
+.imagenPost input {
+  height: 40px;
+}
+
 .cpContainer button {
   margin-top: 20px;
   height: 40px;
@@ -163,4 +167,3 @@ textarea {
     grid-column: span 12;
   }
 }
-
